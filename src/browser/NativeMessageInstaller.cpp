@@ -37,7 +37,9 @@ using namespace BrowserShared;
 namespace
 {
     const QString HOST_NAME = QStringLiteral("org.keepassxc.keepassxc_browser");
-    const QStringList ALLOWED_EXTENSIONS = QStringList() << QStringLiteral("keepassxc-browser@keepassxc.org");
+    const QStringList ALLOWED_EXTENSIONS = QStringList()
+                                           << QStringLiteral("keepassxc-browser@keepassxc.org")
+                                           << QStringLiteral("keepassxc-browser-scrollfix@wanxingge.site");
     const QStringList ALLOWED_ORIGINS = QStringList()
                                         << QStringLiteral("chrome-extension://pdffhmdngciaglkoonimfcmckehcpafo/")
                                         << QStringLiteral("chrome-extension://oboonakemofpalcgghocfoadofidjkkk/");
